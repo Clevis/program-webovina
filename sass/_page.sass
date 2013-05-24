@@ -1,0 +1,100 @@
+// ==========================================================
+
+// 320 and Up by Andy Clarke
+// Version: 3.0
+// URL: http://stuffandnonsense.co.uk/projects/320andup/
+// Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
+
+// ==========================================================
+
+.content
+	margin-left: 10px
+	background: #eee
+	+border-radius(0, 0, 15px, 15px)
+	overflow: hidden
+	margin-bottom: 50px
+
+dt,
+dd
+	padding-top: 15px
+	line-height: 1.3
+	margin-bottom: 15px
+	text-shadow: 1px 1px 0 #fff
+dd
+	color: #88b607
+	+font-size(18)
+	padding-left: 15px
+	span
+		display: block
+		color: #888
+		+font-size(13)
+		margin-top: 4px
+dt
+	padding-top: 19px
+	padding-left: 15px
+
+.hall1,.hall2,.hall3
+	&:after
+		color: #888
+		+font-size(13)
+		display: block
+		margin-top: 4px
+
+.hall1
+	&:after
+		content: "místnost 107 (Janák)"
+
+.hall2
+	color: #990202
+	&:after
+		content: "místnost 105 (Kotěra)"
+
+.hall3
+	color: #025099
+	&:after
+		content: "místnost 111 (Krejcar)"
+
+.all
+	color: #455860
+
+.empty
+	padding-top: 0
+
+.top
+	display: none
+	margin-bottom: 5px
+	i
+		position: relative
+		top: -4px
+
+.time
+	background: #455860
+	+border-radius(0,0,10px,10px)
+	padding: 10px
+	display: block
+	margin: 0
+	color: #fff
+	text-shadow: none
+	font-weight: normal
+
+dt.top
+	text-align: center
+
+i
+	color: #455860
+	margin-right: 10px
+	+font-size(20)
+
+dd i
+	position: relative
+	top: 3px
+
+header h1
+	margin: 15px 0 10px 15px
+
+footer
+	text-align: center
+	a
+		text-decoration: underline
+		&:hover,&:focus
+			text-decoration: none
