@@ -1757,7 +1757,7 @@ dd {
   text-shadow: 1px 1px 0 white; }
 
 dd {
-  color: #88b607;
+  color: black;
   font-size: 18px;
   font-size: 1.8rem;
   padding-left: 15px; }
@@ -1771,32 +1771,6 @@ dd {
 dt {
   padding-top: 19px;
   padding-left: 15px; }
-
-.hall1:after, .hall2:after, .hall3:after {
-  color: #888888;
-  font-size: 13px;
-  font-size: 1.3rem;
-  display: block;
-  margin-top: 4px; }
-
-.hall1:after {
-  content: "místnost 107 (Janák)"; }
-
-.hall2 {
-  color: #990202; }
-  .hall2:after {
-    content: "místnost 105 (Kotěra)"; }
-
-.hall3 {
-  color: #025099; }
-  .hall3:after {
-    content: "místnost 111 (Krejcar)"; }
-
-.all {
-  color: #455860; }
-
-.empty {
-  padding-top: 0; }
 
 .top {
   display: none;
@@ -1907,15 +1881,12 @@ footer {
     float: left;
     width: 100%; }
 
-  dd.one {
+  dd {
     float: left;
-    width: 30%;
+    width: 90%;
     padding-right: 5%; }
 
-  dd.all {
-    width: 90%; }
-
-  dt.one {
+  dt {
     float: left;
     width: 10%;
     padding-right: 2%;
@@ -1927,10 +1898,7 @@ footer {
     color: black; }
 
   .top {
-    display: block; }
-
-  .hall1:after, .hall2:after, .hall3:after {
-    display: none; } }
+    display: block; } }
 @media only screen and (min-width: 1382px) {
   /* 1382 =================================================== */
   body {
